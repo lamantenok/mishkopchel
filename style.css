@@ -53,7 +53,7 @@ hr.star-primary {
     text-align: center;
 }
 
-hr.star-light:after,
+/*hr.star-light:after,
 hr.star-primary:after {
     content: "\f005";
     display: inline-block;
@@ -63,7 +63,7 @@ hr.star-primary:after {
     font-family: FontAwesome;
     font-size: 2em;
 }
-
+*/
 hr.star-light {
     border-color: #fff;
 }
@@ -109,7 +109,7 @@ header .intro-text .name {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 header .intro-text .skills {
@@ -124,7 +124,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 4.7em;
+        font-size: 3.7em;
     }
 
     header .intro-text .skills {
@@ -189,6 +189,7 @@ section {
 section h2 {
     margin: 0;
     font-size: 3em;
+    font-weight: 300;
 }
 
 section.success {
